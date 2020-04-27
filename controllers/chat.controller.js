@@ -20,10 +20,3 @@ exports.create_chat = function(req, res, next) {
   });
 };
 
-// exports.read_chat = function(req, res, next) {
-//   Chat.findOne({ 'nickname': req.params.userNickname }, function(err, chat) {
-//     if (err)
-//       res.status(400).send(err);
-//     res.json(chat);
-//   });
-// };

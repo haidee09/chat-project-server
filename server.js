@@ -19,7 +19,7 @@ var cors = require('cors');
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/chatProject', {useNewUrlParser: true, useUnifiedTopology: true})
-  .then(() =>  console.log('Conexión exito a MongoDB'))
+  .then(() =>  console.log('Conexión exitosa a MongoDB'))
   .catch((err) => console.error(err));
 
 //CORS
